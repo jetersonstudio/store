@@ -1,0 +1,53 @@
+.product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px auto;
+    align-items: center;
+}
+
+.product-images {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.product-info {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.product-info h1 {
+    margin-bottom: 10px;
+}
+
+.features {
+    list-style: disc inside;
+    margin: 20px 0;
+    padding-left: 15px;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.reviews-section {
+    margin-top: 60px;
+}
+
+.review {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+    margin-top: 30px;
+    display: inline-block;
+}
